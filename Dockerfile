@@ -6,4 +6,3 @@ RUN apt-get update && apt-get install -y apt-transport-https ca-certificates cur
    $(lsb_release -cs) \
    stable" \
 && apt-get update && apt install -y docker-ce-cli
-CMD ["docker"]

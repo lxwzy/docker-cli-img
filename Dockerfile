@@ -5,5 +5,5 @@ RUN apt-get update && apt-get install apt-transport-https ca-certificates curl s
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable" \
-&& apt-get update && apt install docker-ce-cli
+&& apt-get update && apt install -y docker-ce-cli
 CMD ["docker"]
